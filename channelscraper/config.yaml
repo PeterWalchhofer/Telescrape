@@ -1,0 +1,31 @@
+#### API CREDENTIALS #####
+# Credentials for telegram API
+api_id: #Put Numeric API ID here
+api_hash: #Put API hash string here
+phone: #Put phone number string here
+
+### INPUT CHANNEL FILES ###
+#input_channel_file: telegram_accounts.csv
+input_channel_file: channels.csv
+
+### SCRAPING SETTINGS ####
+# More extensive logging if true.
+debug_mode: false
+
+# Specify scrape mode: FULL_SCRAPE vs. OFFSET_SCRAPE
+scrape_mode: FULL_SCRAPE
+
+# Only relevant on OFFSET_SCRAPE mode. Set the amount of days to go back in chat history.
+scrape_offset: 30
+
+# There is a different driver needed for aws.
+driver_mode: "normal"
+
+# If true, the script will run slower in order to avoid being blocked.
+init: False
+
+# If true, media files will be downloaded as well. On default those are photos. If you want something different edit source-code.
+media_download: False
+
+# Query comments.bot/app usernames. Attention: This can lead to a API-ban more likely.
+query_users: False

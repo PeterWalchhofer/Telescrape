@@ -1,0 +1,5 @@
+selenium
+telethon
+beautifulsoup4
+pyyaml
+chromedriver-autoinstaller
