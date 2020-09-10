@@ -12,11 +12,11 @@ This Telegram scraper collects telegram messages, comments (comments.bot/comment
 
 ### Getting Started 
 
-1. Install dependencies `make install`
+1. Install dependencies `make install` OR just install requirements.txt (using venv is recommended)
 2. Create your own `channel.csv` as explained in the next section
 3. Put the phone-number of the linked telegram account int the `config.yaml`
 4. Get your API-key [here](https://my.telegram.org/auth?to=apps) an put them inside the `config.yaml`.
-5. `sh scrape.sh` to start the scraper 
+5. `sh scrape.sh` to start the scraper OR run `channelscraper/python app.py`
 6. The outputs will be stored in the `/output` directory. 
 
 
