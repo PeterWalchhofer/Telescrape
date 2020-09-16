@@ -1,6 +1,9 @@
 # Telegram Scraper
 
 This Telegram scraper collects telegram messages, comments (comments.bot/comments.app) and media files. It was originally build for this [story](https://www.addendum.org/news/telegram-netzwerk-sellner/) on behalf of [Addendum](https://addendum.org).
+
+**Contributors:** [@PeterWalchhofer](https://github.com/PeterWalchhofer), [@vali101](https://github.com/vali101), [@fin](https://github.com/fin) 
+
 ## Setup
 
 ### Requirements:
