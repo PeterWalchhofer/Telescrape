@@ -3,6 +3,9 @@
 This Telegram scraper collects telegram messages, comments (comments.bot/comments.app) and media files. It was originally build for this [story](https://www.addendum.org/news/telegram-netzwerk-sellner/) on behalf of [Addendum](https://addendum.org).
 
 **Contributors:** [@PeterWalchhofer](https://github.com/PeterWalchhofer), [@vali101](https://github.com/vali101), [@fin](https://github.com/fin) 
+## Notes
+This scraper was written before Telgram introduced its native comment feature for broadcasting channels. Nowadays, comment.bot/comment.app extensions are rarely used anymore. Feel free to make a PR to support this feature. 
+[@vali101](https://github.com/vali101) re-wrote the scraper for his bachelor thesis [here](https://github.com/vali101/telegraph) with a focus on snowball sampling. His code may help for extending the scraper or for finding interesting channels in the first place. Check it out!
 
 ## Setup
 
