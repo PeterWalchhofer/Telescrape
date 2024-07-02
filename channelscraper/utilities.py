@@ -28,7 +28,7 @@ def concat(first_name, last_name):
 
 
 def eliminateWhitespaces(text):
-    return re.sub("\s\s+", " ", text)
+    return re.sub(r"\s\s+", " ", text)
 
 
 def calcDateOffset(offset):
@@ -52,7 +52,7 @@ def create_path_if_not_exists(channelPath):
 
 def extractUrls(message):
     """ Url extraction by RegEx and telegram url entity to get maximum results"""
-    urls_regex = re.findall("(?P<url>https?://[^\s]+)", message.text)
+    urls_regex = re.findall(r"(?P<url>https?://[^\s]+)", message.text)
     # if found through regex add it, if not already found (because it has bugs)
     for i in range(len(urls_regex)):
         url_reg = urls_regex[i]
